@@ -19,6 +19,7 @@ return {
       watch_gitdir = {
         interval = 1000,
       },
+      current_line_blame = true,
       attach_to_untracked = false,
     })
     --		if pcall(require, "scrollbar") then
